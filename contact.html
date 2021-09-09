@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The shop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a href="about.html class="menu__list-link">О компании</a></li>
+            <li class="menu__list-item">
+              <a href="gallery.html" class="menu__list-link">Галерея</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="logo" href="#">
+          <img src="images/logo.png" alt="">
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a href="blog.html" class="menu__list-link">Блог</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="contact.html" class="menu__list-link menu__list-link--active">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header__btn-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <button class="header__btn">
+          <img src="images/icon_menu.svg" alt="">
+        </button>
+        <div class="rightside-menu rightside-menu--close">
+          <button class="rightside-menu__close">
+            <img src="images/close.svg" alt="close">
+          </button>
+          <div class="rightside-menu__content">
+            <a href="" class="rightside-menu__logo">
+              <img src="images/logo.png" alt="logo">
+            </a>
+            <h4 class="rightside-menu__title">
+              Офисные кресла для комфорта
+            </h4>
+            <p class="rightside-menu__text">
+             Качество в сочетании с уникальным дизайном, функциональностью и надежностью. 
+            </p>
+            <img class="rightside-menu__img" src="images/chair_1.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+    <main class="main">
+      <div class="breadcrumbs">
+        <div class="container">
+          <ul class="breadcrumbs__list">
+
+            <li class="breadcrumbs__item">
+              <a href="" class="breadcrumbs__link">Главная</a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a href="" class="breadcrumbs__link">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.4893397210253!2d27.533009615299928!3d53.90527988009996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcff17bf2382f%3A0xced7b9208a68cc60!2z0KLQoNCu0Jwg0LzQtdCx0LXQu9GM0L3Ri9C5INGC0L7RgNCz0L7QstGL0Lkg0YbQtdC90YLRgA!5e0!3m2!1sru!2sby!4v1629368800228!5m2!1sru!2sby" width="100%" zoom="8" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+
+      <section class="contact">
+        <div class="container">
+          <h3 class="contact__title">
+            Контакты
+          </h3>
+          <ul class="contact__social">
+            <li class="contact__social-item">
+              <a href="#" class="contact__social-link">
+                <img src="images/facebook.svg" alt="facebook" class="contact__social-linkimg">
+              </a>
+            </li>
+            <li class="contact__social-item">
+              <a href="#" class="contact__social-link">
+                <img src="images/instagram.svg" alt="instagram" class="contact__social-linkimg">
+              </a>
+            </li>
+            <li class="contact__social-item">
+              <a href="#" class="contact__social-link">
+                <img src="images/youtube.svg" alt="youtube" class="contact__social-linkimg">
+              </a>
+            </li>
+            <li class="contact__social-item">
+              <a href="#" class="contact__social-link">
+                <img src="images/whatsapp.svg" alt="whatsapp" class="contact__social-linkimg">
+              </a>
+            </li>
+          </ul>
+          <div class="contact__address">
+          <a href="tel:+375178297915" class="contact__phone">(017) 829-7915</a>
+          <div class="contact__st">7Б Кальварийская ул.</div>
+          <div class="contact__city">Минск, РБ, 220004</div>
+          <a href="mailto:profoffice@gmail.com" class="info-email">profoffice@gmail.com</a>
+        </div>
+          <form class="contact__form">
+            <input class="contact__form-input" placeholder="Ваше имя" type="text">
+            <input class="contact__form-input" placeholder="E-mail"  type="email">
+            <textarea class="contact__form-area" placeholder="Ваше сообщение"></textarea>
+            <button class="contact__form-btn" type="submit">Отправить</button>
+          </form>
+        </div>
+      </section>
+
+    </main>
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer__info">
+              <h6 class="footer__info-title">
+                Наши контакты
+              </h6>
+              <a href="mailto:profoffice@gmail.com" class="footer__info-email">profoffice@gmail.com</a>
+              <form lass="footer__form">
+                <input type="e-mail" class="footer__form-input" placeholder="Subscribe by e-mail">
+                <button class="footer__form-button" type="submit">Отправить</button>
+            </form>
+            </div>
+            <ul class="footer__social">
+              <li class="footer__social-item">
+                <a class="footer__social-link footer__social-link--facebook" href="#">Facebook</a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link footer__social-link--instagram" href="#">Instagram</a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link footer__social-link--whatsapp" href="#">WhatsApp</a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link footer__social-link--youtube" href="#">Youtube</a>
+              </li>
+            </ul>
+            <nav class="footer__menu">
+              <ul class="footer__menu-list">
+                <li class="footer__menu-item">  
+                  <a class="footer__menu-link" href="#">Доставка</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Больше о компании</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Помощь</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">FAQ</a>
+                </li>
+              </ul>
+
+              
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        Copyright © 2021 “Profim”
+      </div>
+    </footer>
+  </div>
+
+
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
